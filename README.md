@@ -20,3 +20,9 @@ The pieces move in the regular fashion, as under chess rules, which all apply, e
 * Move
 * Validator
 * GameStatus
+
+ Design Pattern to use:
+ * Chain of Respomsibility
+ * State
+ * Observer
+ * Iterator
