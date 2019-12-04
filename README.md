@@ -21,7 +21,7 @@ The pieces move in the regular fashion, as under chess rules, which all apply, e
 * Validator
 * GameStatus
 
- Design Pattern to use:
+ ## Design Pattern to use:
  * Chain of Respomsibility
  * State
  * Observer
