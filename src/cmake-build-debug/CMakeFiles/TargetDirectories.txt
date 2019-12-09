@@ -1,0 +1,3 @@
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles/chess_project.dir
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles/edit_cache.dir
