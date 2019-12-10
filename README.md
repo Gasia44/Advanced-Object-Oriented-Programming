@@ -12,6 +12,8 @@ The pieces move in the regular fashion, as under chess rules, which all apply, e
 * https://www.geeksforgeeks.org/design-a-chess-game/
 * https://www.giuseppefanuzzi.com/2019/01/16/design-pattern-for-chess/
 * https://codereview.stackexchange.com/questions/71790/design-a-chess-game-using-object-oriented-principles
+* https://www.geeksforgeeks.org/design-patterns-set-1-introduction/
+* https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
 
 ## Classes
 * Board
