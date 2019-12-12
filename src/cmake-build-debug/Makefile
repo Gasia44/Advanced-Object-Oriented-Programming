@@ -48,10 +48,10 @@ RM = /home/gasia/clion-2019.3.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project"
+CMAKE_SOURCE_DIR = "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles" "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -130,6 +130,7 @@ Bishop.o: Bishop.cpp.o
 # target to build an object file
 Bishop.cpp.o:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.o
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.o
 .PHONY : Bishop.cpp.o
 
 Bishop.i: Bishop.cpp.i
@@ -138,6 +139,7 @@ Bishop.i: Bishop.cpp.i
 
 # target to preprocess a source file
 Bishop.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.i
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.i
 .PHONY : Bishop.cpp.i
 
@@ -148,7 +150,35 @@ Bishop.s: Bishop.cpp.s
 # target to generate assembly for a file
 Bishop.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.s
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Bishop.cpp.s
 .PHONY : Bishop.cpp.s
+
+Board.o: Board.cpp.o
+
+.PHONY : Board.o
+
+# target to build an object file
+Board.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Board.cpp.o
+.PHONY : Board.cpp.o
+
+Board.i: Board.cpp.i
+
+.PHONY : Board.i
+
+# target to preprocess a source file
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Board.cpp.i
+.PHONY : Board.cpp.i
+
+Board.s: Board.cpp.s
+
+.PHONY : Board.s
+
+# target to generate assembly for a file
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Board.cpp.s
+.PHONY : Board.cpp.s
 
 Figure.o: Figure.cpp.o
 
@@ -211,6 +241,7 @@ Knight.o: Knight.cpp.o
 # target to build an object file
 Knight.cpp.o:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.o
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.o
 .PHONY : Knight.cpp.o
 
 Knight.i: Knight.cpp.i
@@ -219,6 +250,7 @@ Knight.i: Knight.cpp.i
 
 # target to preprocess a source file
 Knight.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.i
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.i
 .PHONY : Knight.cpp.i
 
@@ -229,6 +261,7 @@ Knight.s: Knight.cpp.s
 # target to generate assembly for a file
 Knight.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.s
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.s
 .PHONY : Knight.cpp.s
 
 Pawn.o: Pawn.cpp.o
@@ -237,6 +270,7 @@ Pawn.o: Pawn.cpp.o
 
 # target to build an object file
 Pawn.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.o
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.o
 .PHONY : Pawn.cpp.o
 
@@ -247,6 +281,7 @@ Pawn.i: Pawn.cpp.i
 # target to preprocess a source file
 Pawn.cpp.i:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.i
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.i
 .PHONY : Pawn.cpp.i
 
 Pawn.s: Pawn.cpp.s
@@ -255,6 +290,7 @@ Pawn.s: Pawn.cpp.s
 
 # target to generate assembly for a file
 Pawn.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.s
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.s
 .PHONY : Pawn.cpp.s
 
@@ -265,6 +301,7 @@ Queen.o: Queen.cpp.o
 # target to build an object file
 Queen.cpp.o:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.o
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.o
 .PHONY : Queen.cpp.o
 
 Queen.i: Queen.cpp.i
@@ -273,6 +310,7 @@ Queen.i: Queen.cpp.i
 
 # target to preprocess a source file
 Queen.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.i
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.i
 .PHONY : Queen.cpp.i
 
@@ -283,6 +321,7 @@ Queen.s: Queen.cpp.s
 # target to generate assembly for a file
 Queen.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.s
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Queen.cpp.s
 .PHONY : Queen.cpp.s
 
 Rook.o: Rook.cpp.o
@@ -291,6 +330,7 @@ Rook.o: Rook.cpp.o
 
 # target to build an object file
 Rook.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.o
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.o
 .PHONY : Rook.cpp.o
 
@@ -301,6 +341,7 @@ Rook.i: Rook.cpp.i
 # target to preprocess a source file
 Rook.cpp.i:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.i
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.i
 .PHONY : Rook.cpp.i
 
 Rook.s: Rook.cpp.s
@@ -310,7 +351,35 @@ Rook.s: Rook.cpp.s
 # target to generate assembly for a file
 Rook.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.s
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Rook.cpp.s
 .PHONY : Rook.cpp.s
+
+Square.o: Square.cpp.o
+
+.PHONY : Square.o
+
+# target to build an object file
+Square.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Square.cpp.o
+.PHONY : Square.cpp.o
+
+Square.i: Square.cpp.i
+
+.PHONY : Square.i
+
+# target to preprocess a source file
+Square.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Square.cpp.i
+.PHONY : Square.cpp.i
+
+Square.s: Square.cpp.s
+
+.PHONY : Square.s
+
+# target to generate assembly for a file
+Square.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Square.cpp.s
+.PHONY : Square.cpp.s
 
 main.o: main.cpp.o
 
@@ -351,6 +420,9 @@ help:
 	@echo "... Bishop.o"
 	@echo "... Bishop.i"
 	@echo "... Bishop.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
 	@echo "... Figure.o"
 	@echo "... Figure.i"
 	@echo "... Figure.s"
@@ -369,6 +441,9 @@ help:
 	@echo "... Rook.o"
 	@echo "... Rook.i"
 	@echo "... Rook.s"
+	@echo "... Square.o"
+	@echo "... Square.i"
+	@echo "... Square.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

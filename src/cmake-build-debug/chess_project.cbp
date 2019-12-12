@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"/>
+				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"/>
+				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chess_project">
-				<Option output="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/chess_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"/>
+				<Option output="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/chess_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess_project"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess_project"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="chess_project/fast">
-				<Option output="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/chess_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"/>
+				<Option output="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/chess_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,69 +67,111 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess_project/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess_project/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug"/>
+				<Option working_dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/chess_project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gasia/Desktop/master/second_year/Advanced\ Object-Oriented\ Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/Figure.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Bishop.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/Figure.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Bishop.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/King.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Board.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/King.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Board.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Bishop.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Bishop.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Knight.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/King.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Knight.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/King.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Pawn.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Knight.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Pawn.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Knight.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Queen.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Queen.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Rook.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Queen.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug/Rook.h">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Queen.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/main.cpp">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Rook.cpp">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/CMakeLists.txt">
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Rook.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Square.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Square.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Bishop.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Bishop.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Knight.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Knight.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Pawn.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Pawn.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Queen.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Queen.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Rook.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Rook.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/main.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

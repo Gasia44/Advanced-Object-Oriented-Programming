@@ -5,9 +5,14 @@
 #ifndef CHESS_PROJECT_KING_H
 #define CHESS_PROJECT_KING_H
 
+#pragma once
+#include "Figure.h"
 
-class King {
+class King: public Figure {
 
+public:
+    King(bool);
+    ~King();
 };
 
 

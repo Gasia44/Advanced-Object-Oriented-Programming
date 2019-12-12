@@ -3,3 +3,12 @@
 //
 
 #include "King.h"
+
+King::King(bool isWhite) : Figure(isWhite)
+{
+
+}
+
+King::~King()
+{
+}

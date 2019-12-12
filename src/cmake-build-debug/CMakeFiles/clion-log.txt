@@ -1,4 +1,9 @@
-/home/gasia/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project"
+/home/gasia/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src"
 -- Configuring done
+Warning: Source file "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Knight.cpp" is listed multiple times for target "chess_project".
+Warning: Source file "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Queen.cpp" is listed multiple times for target "chess_project".
+Warning: Source file "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.cpp" is listed multiple times for target "chess_project".
+Warning: Source file "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Rook.cpp" is listed multiple times for target "chess_project".
+Warning: Source file "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Bishop.cpp" is listed multiple times for target "chess_project".
 -- Generating done
--- Build files have been written to: /home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/chess_project/cmake-build-debug
+-- Build files have been written to: /home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug
