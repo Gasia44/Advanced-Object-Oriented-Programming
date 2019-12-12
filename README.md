@@ -12,6 +12,10 @@ The pieces move in the regular fashion, as under chess rules, which all apply, e
 * https://www.geeksforgeeks.org/design-a-chess-game/
 * https://www.giuseppefanuzzi.com/2019/01/16/design-pattern-for-chess/
 * https://codereview.stackexchange.com/questions/71790/design-a-chess-game-using-object-oriented-principles
+* https://www.geeksforgeeks.org/design-patterns-set-1-introduction/
+* https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns
+* http://www.chesscoachonline.com/chess-articles/chess-rules
+* https://www.codeproject.com/Articles/1214018/Chess-Console-Game-in-Cplusplus
 
 ## Classes
 * Board
@@ -25,5 +29,5 @@ The pieces move in the regular fashion, as under chess rules, which all apply, e
  * Chain of Respomsibility: has the intent to avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chains the receiving objects and passes the requests along the chain until an object handles it.
  * State: allows an object to alter its behavior when its internal state changes. The object will appear as having changed its class.
  * Observer: defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
- * Iterator: is used liberally within the STL for traversal of various containers. The full understanding of this will liberate a developer to create highly reusable and easily understandable[citation needed] data containers.
-
+ * Iterator: is used liberally within the STL for traversal of various containers. The full understanding of this will liberate a developer to create highly reusable and easily understandable[citation needed] data containers. 
+j
