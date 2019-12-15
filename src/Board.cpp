@@ -28,10 +28,11 @@ Square Board::getSquare(int x, int y)
 
 void Board::resetBoard(){
 
-    //initialize x y in square
+    squares = new Square*[8];
     for (int i = 0; i < 8; i++) {
+        squares[i] = new Square[8];
         for (int j = 0; j < 8; j++) {
-            squares[i][j].initializeXY(i, j);
+            squares[i][j] = Square(i, j, nullptr);
         }
     }
 

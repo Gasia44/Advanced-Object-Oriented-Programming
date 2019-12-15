@@ -9,7 +9,7 @@
 //state pattern for square?
 class Board {
 private:
-    Square squares[8][8];
+    Square** squares;
     Board();
     ~Board();
     Square getSquare(int x, int y);

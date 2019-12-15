@@ -19,13 +19,12 @@ private:
 
 public:
 //    Square(int x, int y, Figure *figure);
-    Square();
+    Square(int, int, Figure*);
     ~Square();
     int getX();
     void setX(int);
     int getY();
     void setY(int);
-    void initializeXY(int, int);
 
 //    std::shared_ptr<Figure> getFigure(Figure *);
     Figure* getFigure();

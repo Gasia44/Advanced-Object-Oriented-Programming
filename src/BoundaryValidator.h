@@ -6,7 +6,14 @@
 #define CHESS_PROJECT_BOUNDARYVALIDATOR_H
 
 
-class BoundaryValidator {
+#include "Validator.h"
+
+class BoundaryValidator: Validator {
+public:
+    BoundaryValidator();
+    ~BoundaryValidator();
+private:
+    bool specialHandleValidation(Square*, Square*);
 
 };
 

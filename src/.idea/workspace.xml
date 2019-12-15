@@ -15,14 +15,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Board.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Board.h" beforeDir="false" afterPath="$PROJECT_DIR$/Board.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoundaryValidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BoundaryValidator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoundaryValidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/BoundaryValidator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ColorValidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ColorValidator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColorValidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/ColorValidator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeometricValidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GeometricValidator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeometricValidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/GeometricValidator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Square.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Square.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Square.h" beforeDir="false" afterPath="$PROJECT_DIR$/Square.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Validator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Validator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

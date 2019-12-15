@@ -12,20 +12,15 @@
 //    setFigure(figure);
 //}
 
-Square::Square(){
-    this->figure = nullptr;
-    this->x=0;
-    this->y=0;
+Square::Square(int x, int y, Figure* figure){
+    this->figure = figure;
+    setX(x);
+    setY(y);
 }
 
 Square::~Square() {
     delete this->figure;
 }
-
-void Square::initializeXY(int x, int y){
-    this->x =x;
-    this->y = y;
-};
 
 void Square::setX(int x) {
     this->x = x;

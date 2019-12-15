@@ -3,7 +3,7 @@
 //
 
 #include "ColorValidator.h"
-ColorValidator::ColorValidator(){
+ColorValidator::ColorValidator():Validator(){
 
 }
 

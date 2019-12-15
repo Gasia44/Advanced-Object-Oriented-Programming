@@ -3,12 +3,11 @@
 //
 
 #include "GeometricValidator.h"
-GeometricValidator::GeometricValidator():Validator(Board* b);
+GeometricValidator::GeometricValidator():Validator(){};
 
 GeometricValidator::~GeometricValidator(){
-
 }
 
-bool GeometricValidator::specialHandleValidation(Square *, Square *) {
-
+bool GeometricValidator::specialHandleValidation(Square* start, Square* end) {
+    return start->getFigure()->canMove(&start, &end)
 }
