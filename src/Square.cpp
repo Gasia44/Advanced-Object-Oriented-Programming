@@ -6,16 +6,26 @@
 #include <memory>
 #include <iostream>
 
-Square::Square(int x, int y, Figure *figure) {
-    setX(x);
-    setY(y);
-    setFigure(figure);
-}
+//Square::Square(int x, int y, Figure *figure) {
+//    setX(x);
+//    setY(y);
+//    setFigure(figure);
+//}
 
+Square::Square(){
+    this->figure = nullptr;
+    this->x=0;
+    this->y=0;
+}
 
 Square::~Square() {
-//    delete this.figure;
+    delete this->figure;
 }
+
+void Square::initializeXY(int x, int y){
+    this->x =x;
+    this->y = y;
+};
 
 void Square::setX(int x) {
     this->x = x;
@@ -36,7 +46,6 @@ int Square::getY() {
 
 Figure* Square::getFigure(class Figure *) {
     return this->figure;
-
 }
 
 
@@ -51,5 +60,3 @@ void Square::removeFigure()
 {
     this->figure = nullptr;
 }
-
-//state empty/non empty, type, underattack

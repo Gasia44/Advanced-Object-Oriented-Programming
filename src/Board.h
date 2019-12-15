@@ -14,7 +14,7 @@ private:
     ~Board();
     Square getSquare(int x, int y);
     void moveFigure(int startX, int startY, int endX, int endY);
-
+    void resetBoard();
 };
 
 

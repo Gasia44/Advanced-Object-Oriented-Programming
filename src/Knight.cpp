@@ -3,7 +3,7 @@
 //
 
 #include "Knight.h"
-Knight::Knight(bool white) : Figure(white)
+Knight::Knight(bool w) : Figure(w)
 {
 
 }

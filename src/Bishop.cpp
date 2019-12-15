@@ -3,7 +3,7 @@
 //
 
 #include "Bishop.h"
-Bishop::Bishop(bool isWhite) : Figure(isWhite)
+Bishop::Bishop(bool w) : Figure(w)
 {
 
 }

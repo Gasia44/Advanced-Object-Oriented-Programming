@@ -3,7 +3,7 @@
 //
 
 #include "Rook.h"
-Rook::Rook(bool isWhite) : Figure(isWhite)
+Rook::Rook(bool w) : Figure(w)
 {
 
 }

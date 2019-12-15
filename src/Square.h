@@ -18,12 +18,14 @@ private:
 //        std::unique_ptr<Figure> figure; // = std::make_unique<Figure>();
 
 public:
-    Square(int x, int y, Figure *figure);
+//    Square(int x, int y, Figure *figure);
+    Square();
     ~Square();
     int getX();
-    void setX(int x);
+    void setX(int);
     int getY();
-    void setY(int y);
+    void setY(int);
+    void initializeXY(int, int);
 
 //    std::shared_ptr<Figure> getFigure(Figure *);
     Figure* getFigure(Figure *);

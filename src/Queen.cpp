@@ -3,7 +3,7 @@
 //
 
 #include "Queen.h"
-Queen::Queen(bool isWhite) : Figure(isWhite)
+Queen::Queen(bool w) : Figure(w)
 {
 
 }

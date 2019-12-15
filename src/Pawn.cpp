@@ -3,7 +3,7 @@
 //
 
 #include "Pawn.h"
-Pawn::Pawn(bool isWhite) : Figure(isWhite)
+Pawn::Pawn(bool w) : Figure(w)
 {
 
 }
