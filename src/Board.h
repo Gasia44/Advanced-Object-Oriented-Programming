@@ -9,9 +9,12 @@
 //state pattern for square?
 class Board {
 private:
-    Square square[8][8];
+    Square squares[8][8];
     Board();
     ~Board();
+    Square getSquare(int x, int y);
+    void moveFigure(int startX, int startY, int endX, int endY);
+
 };
 
 

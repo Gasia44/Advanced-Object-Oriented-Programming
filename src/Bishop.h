@@ -13,6 +13,7 @@ class Bishop: public Figure {
 public:
     Bishop(bool);
     ~Bishop();
+    bool canMove(Square*, Square*);
 };
 
 #endif //CHESS_PROJECT_BISHOP_H

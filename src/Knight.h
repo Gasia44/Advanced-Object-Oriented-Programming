@@ -12,6 +12,7 @@ class Knight: public Figure {
 public:
     Knight(bool);
     ~Knight();
+    bool canMove(Square*, Square*);
 };
 
 

@@ -11,3 +11,7 @@ Rook::Rook(bool isWhite) : Figure(isWhite)
 Rook::~Rook()
 {
 }
+
+bool canMove(Square* start, Square* end){
+    return( (start->getX() == end->getX()) || (start->getY() == end->getY()));
+}

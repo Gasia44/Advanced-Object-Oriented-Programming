@@ -180,6 +180,60 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
+BoundaryValidator.o: BoundaryValidator.cpp.o
+
+.PHONY : BoundaryValidator.o
+
+# target to build an object file
+BoundaryValidator.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o
+.PHONY : BoundaryValidator.cpp.o
+
+BoundaryValidator.i: BoundaryValidator.cpp.i
+
+.PHONY : BoundaryValidator.i
+
+# target to preprocess a source file
+BoundaryValidator.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/BoundaryValidator.cpp.i
+.PHONY : BoundaryValidator.cpp.i
+
+BoundaryValidator.s: BoundaryValidator.cpp.s
+
+.PHONY : BoundaryValidator.s
+
+# target to generate assembly for a file
+BoundaryValidator.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/BoundaryValidator.cpp.s
+.PHONY : BoundaryValidator.cpp.s
+
+ColorValidator.o: ColorValidator.cpp.o
+
+.PHONY : ColorValidator.o
+
+# target to build an object file
+ColorValidator.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/ColorValidator.cpp.o
+.PHONY : ColorValidator.cpp.o
+
+ColorValidator.i: ColorValidator.cpp.i
+
+.PHONY : ColorValidator.i
+
+# target to preprocess a source file
+ColorValidator.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/ColorValidator.cpp.i
+.PHONY : ColorValidator.cpp.i
+
+ColorValidator.s: ColorValidator.cpp.s
+
+.PHONY : ColorValidator.s
+
+# target to generate assembly for a file
+ColorValidator.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/ColorValidator.cpp.s
+.PHONY : ColorValidator.cpp.s
+
 Figure.o: Figure.cpp.o
 
 .PHONY : Figure.o
@@ -206,6 +260,33 @@ Figure.s: Figure.cpp.s
 Figure.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Figure.cpp.s
 .PHONY : Figure.cpp.s
+
+GeometricValidator.o: GeometricValidator.cpp.o
+
+.PHONY : GeometricValidator.o
+
+# target to build an object file
+GeometricValidator.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/GeometricValidator.cpp.o
+.PHONY : GeometricValidator.cpp.o
+
+GeometricValidator.i: GeometricValidator.cpp.i
+
+.PHONY : GeometricValidator.i
+
+# target to preprocess a source file
+GeometricValidator.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/GeometricValidator.cpp.i
+.PHONY : GeometricValidator.cpp.i
+
+GeometricValidator.s: GeometricValidator.cpp.s
+
+.PHONY : GeometricValidator.s
+
+# target to generate assembly for a file
+GeometricValidator.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/GeometricValidator.cpp.s
+.PHONY : GeometricValidator.cpp.s
 
 King.o: King.cpp.o
 
@@ -264,6 +345,33 @@ Knight.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.s
 .PHONY : Knight.cpp.s
 
+Move.o: Move.cpp.o
+
+.PHONY : Move.o
+
+# target to build an object file
+Move.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.o
+.PHONY : Move.cpp.o
+
+Move.i: Move.cpp.i
+
+.PHONY : Move.i
+
+# target to preprocess a source file
+Move.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.i
+.PHONY : Move.cpp.i
+
+Move.s: Move.cpp.s
+
+.PHONY : Move.s
+
+# target to generate assembly for a file
+Move.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.s
+.PHONY : Move.cpp.s
+
 Pawn.o: Pawn.cpp.o
 
 .PHONY : Pawn.o
@@ -293,6 +401,33 @@ Pawn.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.s
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Pawn.cpp.s
 .PHONY : Pawn.cpp.s
+
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Point.cpp.s
+.PHONY : Point.cpp.s
 
 Queen.o: Queen.cpp.o
 
@@ -381,6 +516,33 @@ Square.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Square.cpp.s
 .PHONY : Square.cpp.s
 
+Validator.o: Validator.cpp.o
+
+.PHONY : Validator.o
+
+# target to build an object file
+Validator.cpp.o:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Validator.cpp.o
+.PHONY : Validator.cpp.o
+
+Validator.i: Validator.cpp.i
+
+.PHONY : Validator.i
+
+# target to preprocess a source file
+Validator.cpp.i:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Validator.cpp.i
+.PHONY : Validator.cpp.i
+
+Validator.s: Validator.cpp.s
+
+.PHONY : Validator.s
+
+# target to generate assembly for a file
+Validator.cpp.s:
+	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Validator.cpp.s
+.PHONY : Validator.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -423,18 +585,33 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
+	@echo "... BoundaryValidator.o"
+	@echo "... BoundaryValidator.i"
+	@echo "... BoundaryValidator.s"
+	@echo "... ColorValidator.o"
+	@echo "... ColorValidator.i"
+	@echo "... ColorValidator.s"
 	@echo "... Figure.o"
 	@echo "... Figure.i"
 	@echo "... Figure.s"
+	@echo "... GeometricValidator.o"
+	@echo "... GeometricValidator.i"
+	@echo "... GeometricValidator.s"
 	@echo "... King.o"
 	@echo "... King.i"
 	@echo "... King.s"
 	@echo "... Knight.o"
 	@echo "... Knight.i"
 	@echo "... Knight.s"
+	@echo "... Move.o"
+	@echo "... Move.i"
+	@echo "... Move.s"
 	@echo "... Pawn.o"
 	@echo "... Pawn.i"
 	@echo "... Pawn.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
 	@echo "... Queen.o"
 	@echo "... Queen.i"
 	@echo "... Queen.s"
@@ -444,6 +621,9 @@ help:
 	@echo "... Square.o"
 	@echo "... Square.i"
 	@echo "... Square.s"
+	@echo "... Validator.o"
+	@echo "... Validator.i"
+	@echo "... Validator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

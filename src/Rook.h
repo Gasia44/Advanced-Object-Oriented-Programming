@@ -13,6 +13,7 @@ class Rook: public Figure {
 public:
     Rook(bool);
     ~Rook();
+    bool canMove(Square*, Square*);
 };
 
 #endif //CHESS_PROJECT_ROOK_H

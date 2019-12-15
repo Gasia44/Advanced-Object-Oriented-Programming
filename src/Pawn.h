@@ -13,6 +13,7 @@ class Pawn: public Figure {
 public:
     Pawn(bool);
     ~Pawn();
+    bool canMove(Square*, Square*);
 };
 
 

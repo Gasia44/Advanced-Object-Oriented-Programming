@@ -96,10 +96,28 @@
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Board.h">
 			<Option target="chess_project"/>
 		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/BoundaryValidator.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/BoundaryValidator.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/ColorValidator.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/ColorValidator.h">
+			<Option target="chess_project"/>
+		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.cpp">
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/GeometricValidator.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/GeometricValidator.h">
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/King.cpp">
@@ -114,10 +132,22 @@
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Knight.h">
 			<Option target="chess_project"/>
 		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.h">
+			<Option target="chess_project"/>
+		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.cpp">
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Point.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Point.h">
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Queen.cpp">
@@ -136,6 +166,12 @@
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Square.h">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Validator.cpp">
+			<Option target="chess_project"/>
+		</Unit>
+		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Validator.h">
 			<Option target="chess_project"/>
 		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/Bishop.cpp">

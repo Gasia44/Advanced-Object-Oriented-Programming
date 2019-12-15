@@ -14,5 +14,6 @@ public:
     ~Queen();
 };
 
+bool canMove(Square*, Square*);
 
 #endif //CHESS_PROJECT_QUEEN_H
