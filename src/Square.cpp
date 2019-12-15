@@ -44,7 +44,7 @@ int Square::getY() {
 }
 
 
-Figure* Square::getFigure(class Figure *) {
+Figure* Square::getFigure() {
     return this->figure;
 }
 

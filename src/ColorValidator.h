@@ -6,8 +6,15 @@
 #define CHESS_PROJECT_COLORVALIDATOR_H
 
 
-class ColorValidator {
+#include "Validator.h"
 
+class ColorValidator: public Validator {
+
+public:
+    ColorValidator();
+    ~ColorValidator();
+private:
+    bool specialHandleValidation(Square*, Square*);
 };
 
 

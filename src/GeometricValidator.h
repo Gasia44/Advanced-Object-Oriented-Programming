@@ -12,6 +12,9 @@ class GeometricValidator: public Validator {
 public:
     GeometricValidator();
     ~GeometricValidator();
+
+private:
+    bool specialHandleValidation(Square*, Square*);
 };
 
 

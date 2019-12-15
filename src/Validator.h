@@ -9,7 +9,7 @@
 
 class Validator {
 public:
-    Validator(Board* board);
+    Validator();
     void handleValidation();
 
 private:
@@ -18,7 +18,7 @@ private:
 
 protected:
     virtual void setValidator(Validator *v);
-    virtual bool specialValidation();
+    virtual bool specialHandleValidation(Square*, Square*);
 
 };
 

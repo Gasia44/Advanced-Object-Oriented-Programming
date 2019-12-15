@@ -62,5 +62,5 @@ void Board::resetBoard(){
 
     squares[0][4].setFigure(new King(true));
     squares[7][4].setFigure(new King(false));
-    
+
 }

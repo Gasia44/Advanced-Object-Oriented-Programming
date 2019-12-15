@@ -28,7 +28,7 @@ public:
     void initializeXY(int, int);
 
 //    std::shared_ptr<Figure> getFigure(Figure *);
-    Figure* getFigure(Figure *);
+    Figure* getFigure();
     void setFigure(Figure *);
     void removeFigure();
 };

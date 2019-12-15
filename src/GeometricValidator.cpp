@@ -9,6 +9,6 @@ GeometricValidator::~GeometricValidator(){
 
 }
 
-bool GeometricValidator::handleValidation(){
+bool GeometricValidator::specialHandleValidation(Square *, Square *) {
 
 }

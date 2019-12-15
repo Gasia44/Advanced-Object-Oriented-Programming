@@ -5,8 +5,7 @@
 //Chain Of Responsibility
 #include "Validator.h"
 
-Validator::Validator(Board* b){
-    this->board = b;
+Validator::Validator(){
 }
 
 void Validator::setValidator(Validator *v) {
