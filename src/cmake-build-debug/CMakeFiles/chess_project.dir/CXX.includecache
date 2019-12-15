@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.cpp
+Figure.h
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.h
+
+/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Figure.h
+iostream
+-
+
