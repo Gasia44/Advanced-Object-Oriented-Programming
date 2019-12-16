@@ -132,12 +132,6 @@
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Knight.h">
 			<Option target="chess_project"/>
 		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.cpp">
-			<Option target="chess_project"/>
-		</Unit>
-		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.h">
-			<Option target="chess_project"/>
-		</Unit>
 		<Unit filename="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Pawn.cpp">
 			<Option target="chess_project"/>
 		</Unit>

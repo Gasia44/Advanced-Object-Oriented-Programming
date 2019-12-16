@@ -13,7 +13,7 @@ class King: public Figure {
 public:
     King(bool);
     ~King();
-    bool canMove(Square*, Square*);
+    bool canMove(Square*, Square*) override;
 };
 
 

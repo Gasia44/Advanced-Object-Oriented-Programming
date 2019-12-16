@@ -9,21 +9,38 @@
 #include "Pawn.h"
 #include "Queen.h"
 #include "King.h"
+#include "ColorValidator.h"
+#include "GeometricValidator.h"
+#include "BoundaryValidator.h"
+#include "OrderValidator.h"
 
 Board::Board(){
     this->resetBoard();
+    this->updateValidation("");
 }
 
 Board::~Board()
 {
+    for (int i=0; i<8; i++)
+        delete [] this->squares[i];
+    delete [] this->squares;
 }
 
-Square Board::getSquare(int x, int y)
-{
-    if (x < 0 || x > 7 || y < 0 || y > 7) {
-        throw "Index out of bound";
+void Board::updateValidation(std::string state) {
+    // this will be handled by HandleValidationState (state pattern)
+    ColorValidator cval;
+    GeometricValidator gval;
+    BoundaryValidator bval;
+    OrderValidator oval;
+    bval.setSuccessor(&cval);
+    cval.setSuccessor(&gval);
+
+    allValidators = &cval;
+
+    if(state=="captured"){
+        allValidators->setSuccessor(&oval);
+
     }
-    return squares[x][y];
 }
 
 void Board::resetBoard(){
@@ -65,3 +82,4 @@ void Board::resetBoard(){
     squares[7][4].setFigure(new King(false));
 
 }
+

@@ -12,6 +12,6 @@ Rook::~Rook()
 {
 }
 
-bool canMove(Square* start, Square* end){
+bool Rook::canMove(Square* start, Square* end){
     return( (start->getX() == end->getX()) || (start->getY() == end->getY()));
 }

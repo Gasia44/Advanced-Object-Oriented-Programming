@@ -12,7 +12,7 @@ Queen::~Queen()
 {
 }
 
-bool canMove(Square* start, Square* end) {
+bool Queen::canMove(Square* start, Square* end) {
     bool straightMove = (start->getX() == end->getX()) || (start->getY() == end->getY());
     bool diagonalMove = abs(start->getX() - end->getX()) == abs(start->getY() - end->getY());
 

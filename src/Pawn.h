@@ -5,7 +5,7 @@
 #ifndef CHESS_PROJECT_PAWN_H
 #define CHESS_PROJECT_PAWN_H
 
-
+#pragma once
 #include "Figure.h"
 
 class Pawn: public Figure {

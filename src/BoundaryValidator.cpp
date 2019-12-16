@@ -4,7 +4,7 @@
 
 #include "BoundaryValidator.h"
 
-BoundaryValidator::BoundaryValidator(){
+BoundaryValidator::BoundaryValidator():Validator(){
 
 }
 BoundaryValidator::~BoundaryValidator(){

@@ -4,7 +4,7 @@
 
 #ifndef CHESS_PROJECT_KNIGHT_H
 #define CHESS_PROJECT_KNIGHT_H
-
+#pragma once
 #include "Figure.h"
 
 class Knight: public Figure {

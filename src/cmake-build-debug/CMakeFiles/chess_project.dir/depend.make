@@ -4,19 +4,34 @@
 CMakeFiles/chess_project.dir/Bishop.cpp.o: Bishop.cpp
 CMakeFiles/chess_project.dir/Bishop.cpp.o: Bishop.h
 
+CMakeFiles/chess_project.dir/Board.cpp.o: ../Bishop.h
 CMakeFiles/chess_project.dir/Board.cpp.o: ../Board.cpp
 CMakeFiles/chess_project.dir/Board.cpp.o: ../Board.h
 CMakeFiles/chess_project.dir/Board.cpp.o: ../Figure.h
+CMakeFiles/chess_project.dir/Board.cpp.o: ../King.h
+CMakeFiles/chess_project.dir/Board.cpp.o: ../Knight.h
+CMakeFiles/chess_project.dir/Board.cpp.o: ../Pawn.h
+CMakeFiles/chess_project.dir/Board.cpp.o: ../Queen.h
+CMakeFiles/chess_project.dir/Board.cpp.o: ../Rook.h
 CMakeFiles/chess_project.dir/Board.cpp.o: ../Square.h
 
+CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../Board.h
 CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../BoundaryValidator.cpp
 CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../BoundaryValidator.h
+CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../Figure.h
+CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../Square.h
+CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../Validator.h
 
+CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../Board.h
 CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../ColorValidator.cpp
 CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../ColorValidator.h
+CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../Figure.h
+CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../Square.h
+CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../Validator.h
 
 CMakeFiles/chess_project.dir/Figure.cpp.o: ../Figure.cpp
 CMakeFiles/chess_project.dir/Figure.cpp.o: ../Figure.h
+CMakeFiles/chess_project.dir/Figure.cpp.o: ../Square.h
 
 CMakeFiles/chess_project.dir/GeometricValidator.cpp.o: ../Board.h
 CMakeFiles/chess_project.dir/GeometricValidator.cpp.o: ../Figure.h
@@ -28,6 +43,7 @@ CMakeFiles/chess_project.dir/GeometricValidator.cpp.o: ../Validator.h
 CMakeFiles/chess_project.dir/King.cpp.o: ../Figure.h
 CMakeFiles/chess_project.dir/King.cpp.o: ../King.cpp
 CMakeFiles/chess_project.dir/King.cpp.o: ../King.h
+CMakeFiles/chess_project.dir/King.cpp.o: ../Square.h
 
 CMakeFiles/chess_project.dir/Knight.cpp.o: Knight.cpp
 CMakeFiles/chess_project.dir/Knight.cpp.o: Knight.h

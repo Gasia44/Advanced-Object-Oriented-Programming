@@ -5,6 +5,7 @@
 #ifndef CHESS_PROJECT_FIGURE_H
 #define CHESS_PROJECT_FIGURE_H
 
+#pragma once
 #include <iostream>
 #include "Square.h"
 
@@ -18,8 +19,8 @@ public:
     void setWhite(bool);
     bool isKilled();
     void setKilled(bool);
-    virtual bool canMove(Square*, Square*) = 0;
     ~Figure();
+    virtual bool canMove(Square*, Square*) = 0;
 };
 
 #endif //CHESS_PROJECT_FIGURE_H

@@ -187,22 +187,9 @@ CMakeFiles/chess_project.dir/Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_project.dir/Square.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Square.cpp" -o CMakeFiles/chess_project.dir/Square.cpp.s
 
-CMakeFiles/chess_project.dir/Move.cpp.o: CMakeFiles/chess_project.dir/flags.make
-CMakeFiles/chess_project.dir/Move.cpp.o: ../Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chess_project.dir/Move.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/Move.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.cpp"
-
-CMakeFiles/chess_project.dir/Move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_project.dir/Move.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.cpp" > CMakeFiles/chess_project.dir/Move.cpp.i
-
-CMakeFiles/chess_project.dir/Move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_project.dir/Move.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Move.cpp" -o CMakeFiles/chess_project.dir/Move.cpp.s
-
 CMakeFiles/chess_project.dir/Validator.cpp.o: CMakeFiles/chess_project.dir/flags.make
 CMakeFiles/chess_project.dir/Validator.cpp.o: ../Validator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chess_project.dir/Validator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chess_project.dir/Validator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/Validator.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Validator.cpp"
 
 CMakeFiles/chess_project.dir/Validator.cpp.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/chess_project.dir/Validator.cpp.s: cmake_force
 
 CMakeFiles/chess_project.dir/GeometricValidator.cpp.o: CMakeFiles/chess_project.dir/flags.make
 CMakeFiles/chess_project.dir/GeometricValidator.cpp.o: ../GeometricValidator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chess_project.dir/GeometricValidator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chess_project.dir/GeometricValidator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/GeometricValidator.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/GeometricValidator.cpp"
 
 CMakeFiles/chess_project.dir/GeometricValidator.cpp.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/chess_project.dir/GeometricValidator.cpp.s: cmake_force
 
 CMakeFiles/chess_project.dir/ColorValidator.cpp.o: CMakeFiles/chess_project.dir/flags.make
 CMakeFiles/chess_project.dir/ColorValidator.cpp.o: ../ColorValidator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chess_project.dir/ColorValidator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/chess_project.dir/ColorValidator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/ColorValidator.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/ColorValidator.cpp"
 
 CMakeFiles/chess_project.dir/ColorValidator.cpp.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/chess_project.dir/ColorValidator.cpp.s: cmake_force
 
 CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: CMakeFiles/chess_project.dir/flags.make
 CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o: ../BoundaryValidator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/BoundaryValidator.cpp"
 
 CMakeFiles/chess_project.dir/BoundaryValidator.cpp.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/chess_project.dir/BoundaryValidator.cpp.s: cmake_force
 
 CMakeFiles/chess_project.dir/Point.cpp.o: CMakeFiles/chess_project.dir/flags.make
 CMakeFiles/chess_project.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/chess_project.dir/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/chess_project.dir/Point.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chess_project.dir/Point.cpp.o -c "/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/Point.cpp"
 
 CMakeFiles/chess_project.dir/Point.cpp.i: cmake_force
@@ -277,7 +264,6 @@ chess_project_OBJECTS = \
 "CMakeFiles/chess_project.dir/Rook.cpp.o" \
 "CMakeFiles/chess_project.dir/Board.cpp.o" \
 "CMakeFiles/chess_project.dir/Square.cpp.o" \
-"CMakeFiles/chess_project.dir/Move.cpp.o" \
 "CMakeFiles/chess_project.dir/Validator.cpp.o" \
 "CMakeFiles/chess_project.dir/GeometricValidator.cpp.o" \
 "CMakeFiles/chess_project.dir/ColorValidator.cpp.o" \
@@ -297,7 +283,6 @@ chess_project: CMakeFiles/chess_project.dir/Bishop.cpp.o
 chess_project: CMakeFiles/chess_project.dir/Rook.cpp.o
 chess_project: CMakeFiles/chess_project.dir/Board.cpp.o
 chess_project: CMakeFiles/chess_project.dir/Square.cpp.o
-chess_project: CMakeFiles/chess_project.dir/Move.cpp.o
 chess_project: CMakeFiles/chess_project.dir/Validator.cpp.o
 chess_project: CMakeFiles/chess_project.dir/GeometricValidator.cpp.o
 chess_project: CMakeFiles/chess_project.dir/ColorValidator.cpp.o
@@ -305,7 +290,7 @@ chess_project: CMakeFiles/chess_project.dir/BoundaryValidator.cpp.o
 chess_project: CMakeFiles/chess_project.dir/Point.cpp.o
 chess_project: CMakeFiles/chess_project.dir/build.make
 chess_project: CMakeFiles/chess_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable chess_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/gasia/Desktop/master/second_year/Advanced Object-Oriented Programming/Advanced-Object-Oriented-Programming/src/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable chess_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chess_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

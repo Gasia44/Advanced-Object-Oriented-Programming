@@ -5,7 +5,6 @@
 #include "Pawn.h"
 Pawn::Pawn(bool w) : Figure(w)
 {
-
 }
 
 Pawn::~Pawn()

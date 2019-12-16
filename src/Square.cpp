@@ -6,11 +6,7 @@
 #include <memory>
 #include <iostream>
 
-//Square::Square(int x, int y, Figure *figure) {
-//    setX(x);
-//    setY(y);
-//    setFigure(figure);
-//}
+Square::Square(){}
 
 Square::Square(int x, int y, Figure* figure){
     this->figure = figure;

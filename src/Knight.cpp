@@ -12,7 +12,7 @@ Knight::~Knight()
 {
 }
 
-bool canMove(Square *start, Square *end){
+bool Knight::canMove(Square *start, Square *end){
     int xx = abs(start->getX() - end->getX());
     int yy = abs(start->getY() - end->getY());
 

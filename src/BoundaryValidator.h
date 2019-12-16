@@ -8,7 +8,7 @@
 
 #include "Validator.h"
 
-class BoundaryValidator: Validator {
+class BoundaryValidator: public Validator {
 public:
     BoundaryValidator();
     ~BoundaryValidator();

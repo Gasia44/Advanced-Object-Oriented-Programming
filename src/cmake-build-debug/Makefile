@@ -345,33 +345,6 @@ Knight.cpp.s:
 	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Knight.cpp.s
 .PHONY : Knight.cpp.s
 
-Move.o: Move.cpp.o
-
-.PHONY : Move.o
-
-# target to build an object file
-Move.cpp.o:
-	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.o
-.PHONY : Move.cpp.o
-
-Move.i: Move.cpp.i
-
-.PHONY : Move.i
-
-# target to preprocess a source file
-Move.cpp.i:
-	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.i
-.PHONY : Move.cpp.i
-
-Move.s: Move.cpp.s
-
-.PHONY : Move.s
-
-# target to generate assembly for a file
-Move.cpp.s:
-	$(MAKE) -f CMakeFiles/chess_project.dir/build.make CMakeFiles/chess_project.dir/Move.cpp.s
-.PHONY : Move.cpp.s
-
 Pawn.o: Pawn.cpp.o
 
 .PHONY : Pawn.o
@@ -603,9 +576,6 @@ help:
 	@echo "... Knight.o"
 	@echo "... Knight.i"
 	@echo "... Knight.s"
-	@echo "... Move.o"
-	@echo "... Move.i"
-	@echo "... Move.s"
 	@echo "... Pawn.o"
 	@echo "... Pawn.i"
 	@echo "... Pawn.s"

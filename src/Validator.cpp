@@ -8,15 +8,24 @@
 Validator::Validator(){
 }
 
-void Validator::setValidator(Validator *v) {
+void Validator::setSuccessor(Validator *v) {
     successor = v;
 }
 
-void Validator::handleValidation()
+bool Validator::handleValidation(Square* start, Square* end)
     {
-        if (successor != nullptr)
+        if (specialHandleValidation(start, end))
         {
-            successor->handleValidation();
+            if(successor == nullptr){
+                return true;
+            }
+            else{
+                successor->handleValidation(start, end);
+            }
         }
+        else{
+            return false;
+        }
+
 
     }

@@ -5,6 +5,7 @@
 #ifndef CHESS_PROJECT_QUEEN_H
 #define CHESS_PROJECT_QUEEN_H
 
+#pragma once
 #include "Figure.h"
 
 class Queen: public Figure {
@@ -12,8 +13,6 @@ class Queen: public Figure {
 public:
     Queen(bool);
     ~Queen();
+    bool canMove(Square*, Square*);
 };
-
-bool canMove(Square*, Square*);
-
 #endif //CHESS_PROJECT_QUEEN_H

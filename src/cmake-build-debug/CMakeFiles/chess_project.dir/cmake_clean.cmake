@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/chess_project.dir/GeometricValidator.cpp.o"
   "CMakeFiles/chess_project.dir/King.cpp.o"
   "CMakeFiles/chess_project.dir/Knight.cpp.o"
-  "CMakeFiles/chess_project.dir/Move.cpp.o"
   "CMakeFiles/chess_project.dir/Pawn.cpp.o"
   "CMakeFiles/chess_project.dir/Point.cpp.o"
   "CMakeFiles/chess_project.dir/Queen.cpp.o"

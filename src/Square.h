@@ -5,6 +5,7 @@
 #ifndef CHESS_PROJECT_SQUARE_H
 #define CHESS_PROJECT_SQUARE_H
 
+#pragma once
 #include <iostream>
 #include <memory>
 #include "Figure.h"
@@ -15,10 +16,9 @@ private:
     int y;
     Figure* figure;
 //    std::shared_ptr<Figure> figure;// = std::make_shared<Figure>();
-//        std::unique_ptr<Figure> figure; // = std::make_unique<Figure>();
 
 public:
-//    Square(int x, int y, Figure *figure);
+    Square();
     Square(int, int, Figure*);
     ~Square();
     int getX();

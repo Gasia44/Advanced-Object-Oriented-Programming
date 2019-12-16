@@ -10,17 +10,17 @@
 class Validator {
 public:
     Validator();
-    void handleValidation();
+    bool handleValidation(Square*, Square*);
+    virtual void setSuccessor(Validator *v);
+    
 
 private:
     Validator *successor;
-    Board* board;
+    std::string errorMessage="";
 
 protected:
-    virtual void setValidator(Validator *v);
-    virtual bool specialHandleValidation(Square*, Square*);
+    virtual bool specialHandleValidation(Square*, Square*) = 0;
 
 };
-
 
 #endif //CHESS_PROJECT_VALIDATOR_H
