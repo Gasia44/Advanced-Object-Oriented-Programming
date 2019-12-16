@@ -8,8 +8,6 @@
 #include <"StateChecker.h">
 #include <iostream>
 class HandleValidationState {
-private:
-    bool capture = false;
 public:
     void handleState();
 };
